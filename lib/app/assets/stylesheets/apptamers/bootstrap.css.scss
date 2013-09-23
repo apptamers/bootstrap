@@ -1,0 +1,276 @@
+.apptamers-brand {
+  margin-left: 0px!important;
+  font-size: 22px!important;
+}
+
+.apptamers-navigation-bar {
+  background-color: #191919;
+  height: 40px;
+  .apptamers-navigation-bar-item {
+    font-size: 14px!important;
+    a {
+      -moz-user-select: none;
+      color: #AAAAAA!important;
+      cursor: pointer;
+      line-height: 40px;
+      float: none;
+      padding: 2px 20px!important;
+      text-shadow: none!important;
+      font-weight: normal;
+
+      &:hover {
+        color: #ffffff!important;
+      }
+    }
+  }
+  .dropdown-toggle {
+    .caret {
+      margin-top: 18px!important;
+    }
+  }
+  .dropdown.open .dropdown-toggle {
+    background: none!important;
+    color: #555555;
+  }
+  .dropdown-menu {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C0C0C0;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    line-height: 18px;
+    margin-top: 11px;
+    min-width: 180px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 100%;
+    z-index: 280;
+    li {
+      padding: none!important;
+      a {
+        color: #0088CC!important;
+        &:hover {
+          color: #fff!important;
+        }
+      }
+    }
+  }
+}
+
+.apptamers-content {
+  margin: 0 0 0 180px;
+
+  .apptamers-header {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 40px;
+    z-index: 2;
+    border-bottom: 1px solid #E6E6E6;
+    box-shadow: none!important;
+    width: 100%;
+    height: 56px;
+    padding-left: 20px;
+
+    a {
+      color: #000000!important;
+    }
+  }
+
+  .apptamers-section {
+    margin-top: 120px;
+    &:after { clear: both; }
+
+    .apptamers-section-bar {
+      margin: 110px 20px 10px;
+      position: relative;
+    }
+
+    .apptamers-section-single {
+      border-bottom: none!important;
+      position: relative;
+    }
+
+    .apptamers-section-list {
+      margin-bottom: 200px;
+
+      .apptamers-section-list-item {
+        border-bottom: 1px solid #E6E6E6;
+
+        &:first-child {
+          border: none!important;
+        }
+
+        &:after { clear: both; }
+
+        .apptamers-section-list-item-summary {
+          h1, h2 {
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 10px;
+          }
+        }
+
+        .apptamers-section-list-item-content {
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+
+  table.apptamers-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 14px;
+    th {
+      -moz-user-select: none;
+      border-bottom: 1px solid #ECECEC;
+      color: #000000;
+      padding: 8px 10px;
+      text-align: left;
+    }
+    th.select, td.select {
+      width: 12px;
+    }
+    td {
+      background: none repeat scroll 0 0 transparent;
+      border-bottom: 1px solid #ECECEC;
+      padding: 10px 10px;
+    }
+    a {
+      color: #777777;
+      text-decoration: underline;
+    }
+    .btn-group a {
+      text-decoration: none!important;
+    }
+    .date {
+      width: 150px;
+    }
+    tr {
+      td:first-child, th:first-child {
+        padding-left: 25px!important;
+      }
+    }
+  }
+}
+
+.apptamers-sidebar {
+  position: absolute;
+  background-color: #F2F7FA;
+  border-right: 1px solid #DDE2EB;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 40px;
+  width: 178px;
+  z-index: 220;
+  .apptamers-sidebar-heading {
+    color: #AAB6BD;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 8px 0 0 20px;
+    text-transform: uppercase;
+  }
+  .apptamers-sidebar-link {
+    -moz-box-sizing: border-box;
+    color: #042333;
+    display: block;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 5px 6px 20px;
+    width: 178px;
+  }
+  ol {
+    list-style: none!important;
+    margin: 0px!important;
+    li {
+      a {
+        text-decoration: none;
+        font-size: 14px!important;
+      }
+      &:hover {
+        background-color: #DFEAF0 !important;
+        border-color: #348BB0 #348BB0 #348BB0 -moz-use-text-color;
+      }
+      &.selected {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #479CCF !important;
+        border-color: #348BB0 #348BB0 #348BB0 -moz-use-text-color;
+        border-image: none;
+        border-style: solid solid solid none;
+        border-width: 1px 1px 1px medium;
+        a {
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.apptamers-login-box {
+  width: 300px;
+  margin: 200px auto;
+  padding: 40px;
+  border: 1px solid #eaeaea;
+}
+
+.apptamers-sign-up-box {
+  margin: 50px 0 50px 50px;
+}
+
+span.apptamers-count {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #DCE3EB;
+  border-radius: 3px 3px 3px 3px;
+  color: #8B9BB3;
+  display: inline-block;
+  font: 11px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 2px 5px;
+  position: absolute;
+  right: 10px;
+}
+
+h1, h2, h3 {
+  font-weight: normal!important;
+}
+
+a.btn {
+  text-decoration: none!important;
+}
+
+label {
+  display: inline !important;
+  margin-bottom: 4px !important;
+  border: medium none;
+  color: #000;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-align: left;
+}
+
+.btn-success {
+  background: none!important;
+  background-color: #96BF48!important;
+  border-color: #7EA13D!important;
+  color: #FFFFFF!important;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.badge-success, .label-success {
+  background-color: #96BF48!important;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"],
+input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"],
+input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  border-radius: 0!important;
+}
