@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "apptamers-bootstrap.gemspec",
     "lib/app/assets/stylesheets/apptamers/bootstrap.css.scss",
     "lib/apptamers-bootstrap.rb",
     "lib/apptamers-bootstrap/version.rb"
