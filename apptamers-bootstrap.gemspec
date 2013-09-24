@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "apptamers-bootstrap"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["\u{141}ukasz \u{15a}liwa"]
-  s.date = "2013-09-23"
+  s.date = "2013-09-24"
   s.description = "Apptamers Bootstrap is a basic design for SaaS application created by Apptamers"
   s.email = "lukasz.sliwa@apptamers.com"
   s.extra_rdoc_files = [
@@ -17,16 +17,14 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    ".document",
-    "Gemfile",
-    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
-    "apptamers-bootstrap.gemspec",
-    "lib/app/assets/stylesheets/apptamers/bootstrap.css.scss",
+    "app/assets/stylesheets/apptamers/bootstrap.css.scss",
     "lib/apptamers-bootstrap.rb",
-    "lib/apptamers-bootstrap/version.rb"
+    "lib/apptamers/bootstrap.rb",
+    "lib/apptamers/bootstrap/engine.rb",
+    "lib/apptamers/bootstrap/version.rb"
   ]
   s.homepage = "http://github.com/lukaszsliwa/apptamers-bootstrap"
   s.licenses = ["MIT"]
