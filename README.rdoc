@@ -1,6 +1,6 @@
-= apptamers-bootstrap
+= Apptamers Bootstrap
 
-Description goes here.
+Apptamers bootstrap and sass. Contains apptamers.css.scss file with basic style.
 
 == Contributing to apptamers-bootstrap
  

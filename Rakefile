@@ -11,7 +11,7 @@ rescue Bundler::BundlerError => e
 end
 require 'rake'
 
-require './lib/apptamers-bootstrap/version.rb'
+require './lib/apptamers/bootstrap/version.rb'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
@@ -22,6 +22,9 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Apptamers Bootstrap is a basic design for SaaS application created by Apptamers}
   gem.email = "lukasz.sliwa@apptamers.com"
   gem.authors = ["Łukasz Śliwa"]
+
+  gem.files = Dir["{app,lib}/**/*"] + ["LICENSE.txt", "Rakefile", "README.rdoc"]
+  gem.require_paths = ["lib"]
 
   gem.version = Apptamers::Bootstrap::VERSION
 end
