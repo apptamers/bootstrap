@@ -151,6 +151,9 @@
       td:first-child, th:first-child {
         padding-left: 25px!important;
       }
+      &.hovered:hover, &.selected {
+        background-color: #feffd6;
+      }
     }
   }
 }
@@ -273,4 +276,12 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"],
 input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
   border-radius: 0!important;
+}
+
+.modal-backdrop.in {
+  background-color: #f3f3f3;
+}
+
+.apptamers-section-single {
+  padding: 20px!important;
 }
